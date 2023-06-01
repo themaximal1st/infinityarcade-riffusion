@@ -3,5 +3,9 @@
 @tailwind utilities;
 
 a {
-    @apply text-gray-700 underline
+    @apply text-gray-700 underline;
+}
+
+#wrapper {
+    @apply min-h-screen bg-black text-white;
 }
