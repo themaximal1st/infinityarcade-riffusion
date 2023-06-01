@@ -41,7 +41,7 @@ export default function Home() {
   const [appState, setAppState] = useState<AppState>(AppState.UNINITIALIZED);
 
   // Whether playback is paused
-  const [paused, setPaused] = useState(true);
+  const [paused, setPaused] = useState(false);
 
   // Current interpolation parameters
   const [alpha, setAlpha] = useState(0.0);
